@@ -23,13 +23,9 @@ public class User {
         this.surname = surname;
     }
 
-    public int getId() {
-        return id;
-    }
+    public Integer getId() { return id; }
 
-    public String getName() {
-        return name;
-    }
+    public String getName() { return name; }
 
     public String getSurname() { return surname; }
 
